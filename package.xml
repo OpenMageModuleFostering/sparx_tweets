@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+    <name>Sparx_Tweets</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license>Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Show Latest Twitter Tweets on Magento site.</summary>
+    <description>Show Latest Twitter Tweets on Magento site.</description>
+    <notes>Able to disable and enable the extension from the admin end.&#xD;
+Admin can choose whether to display the latest tweets in left or right sidebar of your magento site&#xD;
+Admin can choose number of twitter feeds you want to display in the frontend.&#xD;
+Able to choose using widget or auth 2</notes>
+    <authors><author><name>Bhoopendra Dwivedi</name><user>Sparx</user><email>bhoopendra.dwivedi@sparxtechnologies.com</email></author></authors>
+    <date>2014-06-11</date>
+    <time>06:41:17</time>
+    <contents><target name="magecommunity"><dir name="Sparx"><dir name="Tweets"><dir name="Block"><dir name="Adminhtml"><dir name="System"><dir name="Config"><file name="Implementcode.php" hash="84b51fcbd4a9bcf7506cfebdd1faace8"/></dir></dir></dir><file name="Tweets.php" hash="c8a7e4d164d6861dbcbf64dc3d75dd25"/></dir><dir name="Helper"><file name="Data.php" hash="47e6c144c7b89fe4ac0aef2c786c6426"/></dir><dir name="Model"><file name="Feed.php" hash="422e872b1f0a5f3f6debc92c21bb4bfa"/><dir name="Source"><file name="Position.php" hash="6a1df8d78a0c6a37e16185a6de6b3cf7"/></dir></dir><dir name="controllers"><file name="IndexController.php" hash="fc493c9ac08bc7b459a7b0f6887d6865"/></dir><dir name="etc"><file name="adminhtml.xml" hash="eb6d7ddd3448c44022b681537039eed7"/><file name="config.xml" hash="99a3607ce13755d859a6322456008f99"/><file name="system.xml" hash="ae17b163a028740b598eb56486db206b"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="tweets"><file name="left.phtml" hash="0cdbe111102c27cd48f0dc98b3d09772"/><file name="right.phtml" hash="68a7aefea38959f097ba1b1244631709"/><file name="tweets.phtml" hash="92d93aad5dc20048e775ee7889b5e747"/></dir></dir><dir name="layout"><file name="tweets.xml" hash=""/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Sparx_Tweets.xml" hash="b26bb9df9954f64b6b84f53c0d947321"/></dir></target><target name="magelib"><dir name="twitteroauth"><file name="TwitterAPIExchange.php" hash="caa63a6be18f79d81f6cf28dbeec45db"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.1</min><max>6.0.0</max></php></required></dependencies>
+</package>
