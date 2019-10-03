@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Sparx_Tweets",
+    "name": "OpenMageModuleFostering\/Sparx_Tweets",
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
     "description": "Show Latest Twitter Tweets on Magento site.",
     "authors": [
-    {
-        "name": "Bhoopendra Dwivedi",
-        "email": "bhoopendra.dwivedi@sparxtechnologies.com"
-    }
-],
+        {
+            "name": "Bhoopendra Dwivedi",
+            "email": "bhoopendra.dwivedi@sparxtechnologies.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
