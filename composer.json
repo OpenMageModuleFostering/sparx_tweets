@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Sparx_Tweets",
+    "name": "openmage-module-fostering\/sparx_tweets",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Show Latest Twitter Tweets on Magento site.",
     "authors": [
